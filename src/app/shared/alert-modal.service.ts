@@ -13,10 +13,13 @@ enum AlertTypes {
 export class AlertModalService {
   constructor(private modalService: NgbModal) {}
 
-  private showAlert(message: string, type: string) {
+  private showAlert(message: string, type: string, dismissTimeout?: number) {
     const modalRef = this.modalService.open(AlertModalComponent);
     modalRef.componentInstance.type = type;
     modalRef.componentInstance.message = message;
+    if (dismissTimeout) {
+      setTimeout(() => modalRef.close(), dismissTimeout);
+    }
   }
 
   showAlertDanger(message: string = 'Erro') {
@@ -24,6 +27,6 @@ export class AlertModalService {
   }
 
   showAlertSuccess(message: string = 'Sucesso') {
-    this.showAlert(message, AlertTypes.SUCCESS);
+    this.showAlert(message, AlertTypes.SUCCESS, 3000);
   }
 }

@@ -7,6 +7,22 @@
     {
       "id": 2,
       "nome": "Java"
+    },
+    {
+      "nome": "Typescript",
+      "id": 4
+    },
+    {
+      "nome": "Material",
+      "id": 5
+    },
+    {
+      "nome": "Material 5",
+      "id": 6
+    },
+    {
+      "nome": "React",
+      "id": 7
     }
   ]
 }
