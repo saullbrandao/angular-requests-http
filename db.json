@@ -21,8 +21,20 @@
       "id": 6
     },
     {
-      "nome": "React",
-      "id": 7
+      "id": 7,
+      "nome": "React"
+    },
+    {
+      "id": 8,
+      "nome": "Svelte"
+    },
+    {
+      "id": 9,
+      "nome": "Vue"
+    },
+    {
+      "id": 10,
+      "nome": "Spring"
     }
   ]
 }
