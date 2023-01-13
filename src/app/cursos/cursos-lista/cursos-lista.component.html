@@ -39,7 +39,11 @@
                 Atualizar
               </button>
               {{ "" }}
-              <button type="button" class="btn btn-outline-danger mb-1 btn-sm">
+              <button
+                type="button"
+                class="btn btn-outline-danger mb-1 btn-sm"
+                (click)="onDelete(curso.id)"
+              >
                 Remover
               </button>
             </span>

@@ -9,32 +9,8 @@
       "nome": "Java"
     },
     {
-      "nome": "Typescript",
-      "id": 4
-    },
-    {
-      "nome": "Material",
-      "id": 5
-    },
-    {
-      "nome": "Material 5",
-      "id": 6
-    },
-    {
-      "id": 7,
-      "nome": "React"
-    },
-    {
-      "id": 8,
-      "nome": "Svelte"
-    },
-    {
-      "id": 9,
-      "nome": "Vue"
-    },
-    {
-      "id": 10,
-      "nome": "Spring"
+      "id": 3,
+      "nome": "Material"
     }
   ]
 }

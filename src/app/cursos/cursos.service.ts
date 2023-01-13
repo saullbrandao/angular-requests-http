@@ -34,4 +34,8 @@ export class CursosService {
 
     return this.create(curso);
   }
+
+  delete(id: number) {
+    return this.http.delete(`${this.API}/${id}`).pipe(take(1));
+  }
 }
