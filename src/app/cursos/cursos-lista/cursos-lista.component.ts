@@ -1,6 +1,5 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { catchError, EMPTY, Observable, switchMap, take } from 'rxjs';
 import { AlertModalService } from 'src/app/shared/alert-modal.service';
 import { Curso } from '../curso';
@@ -17,7 +16,6 @@ export class CursosListaComponent implements OnInit {
 
   constructor(
     private cursosService: CursosService,
-    private modalService: NgbModal,
     private alertModalService: AlertModalService,
     private router: Router,
     private route: ActivatedRoute
